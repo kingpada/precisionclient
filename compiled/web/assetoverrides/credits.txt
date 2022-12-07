@@ -1,6 +1,6 @@
 §fPrecision Client is a custom eaglercraft client with QOL §ffeatures, custom texture packs, and more.§r
 
-§9This was created by LAX1DUDE and forked by EtcherFX§r
+§9This was created by KingPada and forked by EtcherFX§r
 
 §4Ingame voice chat service created by ayunami2000§r
 

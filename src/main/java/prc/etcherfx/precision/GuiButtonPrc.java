@@ -6,7 +6,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.src.FontRenderer;
 import net.minecraft.src.GuiButton;
 
-public class GuiButtonPrc extends GuiButton {
+public class    GuiButtonPrc extends GuiButton {
     public GuiButtonPrc(int par1, int par2, int par3, String par4Str) {
         super(par1, par2, par3, 200, 20, par4Str);
     }

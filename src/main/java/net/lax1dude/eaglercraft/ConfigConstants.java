@@ -7,10 +7,10 @@ public class ConfigConstants {
     public static boolean profanity = false;
 
     public static final String version = "1.5.2 (beta_0.2 Pre 2)";
-    public static final String mainMenuString = "mcacraft " + version; //Precision Client
+    public static final String mainMenuString = "mcacraft version " + version; //Precision Client
 
-    public static final String githubRepo = "https://github.com/PrecisionClient/PrecisionClient";
-    public static final String discordServer = "https://discord.gg/agFak6frsj";
+    public static final String githubRepo = "https://github.com/";//PrecisionClient/PrecisionClient
+    public static final String discordServer = "https://discord.gg/"; //agFak6frsj
 
     public static final boolean html5build = true;
 

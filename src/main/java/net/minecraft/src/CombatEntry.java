@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+
 public class CombatEntry {
     private final DamageSource field_94569_a;
     private final int field_94567_b;

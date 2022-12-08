@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityGhast;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderGhast extends RenderLiving {
     public RenderGhast() {

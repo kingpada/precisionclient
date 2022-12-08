@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityBlaze;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderBlaze extends RenderLiving {
     private int field_77068_a;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelEnderman extends ModelBiped {
     /**
      * Is the enderman carrying a block?

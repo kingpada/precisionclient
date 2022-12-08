@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerProfile;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityClientPlayerMP;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class PlayerControllerMP {
     /**

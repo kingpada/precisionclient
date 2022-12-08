@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityMooshroom;
 
 public class RenderMooshroom extends RenderLiving {
     public RenderMooshroom(ModelBase par1ModelBase, float par2) {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class RecipesWeapons {
     private final String[][] recipePatterns = new String[][]{{"X", "X", "#"}};
     private final Object[][] recipeItems;

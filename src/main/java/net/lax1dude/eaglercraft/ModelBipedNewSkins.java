@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.Entity;
+import net.minecraft.src.entity.Entity;
 import net.minecraft.src.ModelBiped;
 import net.minecraft.src.ModelRenderer;
 

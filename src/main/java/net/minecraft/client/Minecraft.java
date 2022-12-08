@@ -4,6 +4,8 @@ import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.lax1dude.eaglercraft.glemu.FixedFunctionShader;
 import net.minecraft.src.*;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.*;
 
 import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
@@ -1298,7 +1300,7 @@ public class Minecraft implements Runnable {
                                 ++this.gameSettings.thirdPersonView;
 
                                 if (this.gameSettings.thirdPersonView > 2) {
-                                    this.gameSettings.thirdPersonView = 0;
+                                    this.gameSettings.thirdPersonView = 0; //0
                                 }
                             }
 

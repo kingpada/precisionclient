@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class InventoryCraftResult implements IInventory {
     /**
      * A list of one item containing the result of the crafting formula

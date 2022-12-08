@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemExpBottle extends Item {
     public ItemExpBottle(int par1) {
         super(par1);

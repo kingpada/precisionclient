@@ -1,5 +1,13 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.blocks.BlockChest;
+import net.minecraft.src.blocks.BlockHopper;
+import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 import java.util.List;
 
 

@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
-class SlotArmor extends Slot {
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.containers.ContainerPlayer;
+
+public class SlotArmor extends Slot {
     /**
      * The armor type that can be placed on that slot, it uses the same values of
      * armorType field on ItemArmor.
@@ -13,7 +16,7 @@ class SlotArmor extends Slot {
      */
     final ContainerPlayer parent;
 
-    SlotArmor(ContainerPlayer par1ContainerPlayer, IInventory par2IInventory, int par3, int par4, int par5, int par6) {
+    public SlotArmor(ContainerPlayer par1ContainerPlayer, IInventory par2IInventory, int par3, int par4, int par5, int par6) {
         super(par2IInventory, par3, par4, par5);
         this.parent = par1ContainerPlayer;
         this.armorType = par6;

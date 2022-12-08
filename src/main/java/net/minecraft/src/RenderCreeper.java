@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityCreeper;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderCreeper extends RenderLiving {
     /**

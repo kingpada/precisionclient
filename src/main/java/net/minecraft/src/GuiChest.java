@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.ContainerChest;
 
 public class GuiChest extends GuiContainer {
     private final IInventory upperChestInventory;

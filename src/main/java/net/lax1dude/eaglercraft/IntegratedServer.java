@@ -2,7 +2,7 @@ package net.lax1dude.eaglercraft;
 
 import net.lax1dude.eaglercraft.sp.ipc.*;
 import net.minecraft.src.EnumGameType;
-import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagCompound;
 import net.minecraft.src.NetHandler;
 import net.minecraft.src.WorldSettings;
 

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.BlockRailBase;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemMinecart extends Item {
     public int minecartType;
 

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglerImage;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.Block;
 
 import java.util.*;
 

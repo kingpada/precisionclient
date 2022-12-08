@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.*;
+
 public class DamageSource {
     public static DamageSource inFire = (new DamageSource("inFire")).setFireDamage();
     public static DamageSource onFire = (new DamageSource("onFire")).setDamageBypassesArmor().setFireDamage();

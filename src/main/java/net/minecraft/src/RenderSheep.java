@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySheep;
 
 public class RenderSheep extends RenderLiving {
     public RenderSheep(ModelBase par1ModelBase, ModelBase par2ModelBase, float par3) {

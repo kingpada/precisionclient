@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityCow;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderCow extends RenderLiving {
     public RenderCow(ModelBase par1ModelBase, float par2) {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityDragonPart;
+
 public interface IEntityMultiPart {
     World func_82194_d();
 

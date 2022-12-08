@@ -1,9 +1,9 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.NBTBase;
-import net.minecraft.src.NBTTagByteArray;
-import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagByteArray;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.util.ArrayList;
 

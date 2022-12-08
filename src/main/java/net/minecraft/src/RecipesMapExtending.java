@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class RecipesMapExtending extends ShapedRecipes {
     public RecipesMapExtending() {
         super(3, 3, new ItemStack[]{new ItemStack(Item.paper), new ItemStack(Item.paper), new ItemStack(Item.paper), new ItemStack(Item.paper), new ItemStack(Item.map, 0, 32767), new ItemStack(Item.paper), new ItemStack(Item.paper),

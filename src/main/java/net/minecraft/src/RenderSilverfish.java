@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySilverfish;
 
 public class RenderSilverfish extends RenderLiving {
     public RenderSilverfish() {

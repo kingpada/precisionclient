@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemSeedFood extends ItemFood {
     /**
      * Block ID of the crop this seed food should place.

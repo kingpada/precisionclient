@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.ContainerDispenser;
 
 public class GuiDispenser extends GuiContainer {
     public TileEntityDispenser field_94078_r;

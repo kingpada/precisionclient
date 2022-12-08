@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
-class SlotBrewingStandIngredient extends Slot {
+import net.minecraft.src.containers.ContainerBrewingStand;
+
+public class SlotBrewingStandIngredient extends Slot {
     /**
      * The brewing stand this slot belongs to.
      */

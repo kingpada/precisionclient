@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.ContainerFurnace;
 
 public class GuiFurnace extends GuiContainer {
     private final TileEntityFurnace furnaceInventory;

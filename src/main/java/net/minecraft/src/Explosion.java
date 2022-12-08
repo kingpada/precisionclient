@@ -1,6 +1,12 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.enchantments.EnchantmentProtection;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityTNTPrimed;
 
 import java.util.*;
 

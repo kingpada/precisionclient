@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityLiving;
+
 public class PathNavigate {
     private final EntityLiving theEntity;
     private final World worldObj;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public interface IInventory {
     /**
      * Returns the number of slots in the inventory.

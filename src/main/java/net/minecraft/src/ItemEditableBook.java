@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagString;
+
 import java.util.List;
 
 public class ItemEditableBook extends Item {

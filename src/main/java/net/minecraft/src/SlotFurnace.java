@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class SlotFurnace extends Slot {
     /**
      * The player that is using the GUI where this slot resides.

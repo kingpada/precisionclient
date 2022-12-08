@@ -1,6 +1,18 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.enchantments.Enchantment;
+import net.minecraft.src.enchantments.EnchantmentDurability;
+import net.minecraft.src.enchantments.EnchantmentHelper;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityItemFrame;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.nbt.NBTTagString;
 
 import java.util.ArrayList;
 import java.util.List;

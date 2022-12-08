@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 import java.util.ArrayList;
 import java.util.List;
 

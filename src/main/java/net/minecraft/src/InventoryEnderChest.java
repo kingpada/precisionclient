@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 public class InventoryEnderChest extends InventoryBasic {
     private TileEntityEnderChest associatedChest;
 

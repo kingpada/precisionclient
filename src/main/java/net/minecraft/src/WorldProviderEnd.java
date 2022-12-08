@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.blocks.Block;
+
 public class WorldProviderEnd extends WorldProvider {
     /**
      * creates a new world chunk manager for WorldProvider

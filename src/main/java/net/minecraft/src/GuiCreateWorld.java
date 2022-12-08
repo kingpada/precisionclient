@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.IntegratedServer;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.util.List;
 

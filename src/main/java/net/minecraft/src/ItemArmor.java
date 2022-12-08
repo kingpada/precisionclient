@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class ItemArmor extends Item {
     /**
      * Holds the 'base' maxDamage that each armorType have.

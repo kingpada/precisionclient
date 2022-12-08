@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.ContainerWorkbench;
 
 public class GuiCrafting extends GuiContainer {
     public GuiCrafting(InventoryPlayer par1InventoryPlayer, World par2World, int par3, int par4, int par5) {

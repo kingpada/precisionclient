@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class InventoryMerchant implements IInventory {
     private final IMerchant theMerchant;
     private final ItemStack[] theInventory = new ItemStack[3];

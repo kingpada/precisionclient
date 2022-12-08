@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class TileEntityBeacon extends TileEntity implements IInventory {
     /**
      * List of effects that Beacon can apply

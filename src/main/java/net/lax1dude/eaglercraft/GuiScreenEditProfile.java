@@ -2,6 +2,7 @@ package net.lax1dude.eaglercraft;
 
 import net.lax1dude.eaglercraft.EaglerProfile.EaglerProfileSkin;
 import net.minecraft.src.*;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 public class GuiScreenEditProfile extends GuiScreen {
 

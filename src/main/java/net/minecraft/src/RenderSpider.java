@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityCaveSpider;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySpider;
 
 public class RenderSpider extends RenderLiving {
     public RenderSpider() {

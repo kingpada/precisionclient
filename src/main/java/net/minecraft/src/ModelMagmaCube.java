@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityMagmaCube;
+
 public class ModelMagmaCube extends ModelBase {
     ModelRenderer[] field_78109_a = new ModelRenderer[8];
     ModelRenderer field_78108_b;

@@ -1,12 +1,14 @@
 package net.minecraft.src;
 
-class SlotEnchantmentTable extends InventoryBasic {
+import net.minecraft.src.containers.ContainerEnchantment;
+
+public class SlotEnchantmentTable extends InventoryBasic {
     /**
      * The brewing stand this slot belongs to.
      */
     final ContainerEnchantment container;
 
-    SlotEnchantmentTable(ContainerEnchantment par1ContainerEnchantment, String par2Str, boolean par3, int par4) {
+    public SlotEnchantmentTable(ContainerEnchantment par1ContainerEnchantment, String par2Str, boolean par3, int par4) {
         super(par2Str, par3, par4);
         this.container = par1ContainerEnchantment;
     }

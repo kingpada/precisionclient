@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import com.jcraft.jzlib.InflaterInputStream;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.io.DataInputStream;
 import java.io.IOException;

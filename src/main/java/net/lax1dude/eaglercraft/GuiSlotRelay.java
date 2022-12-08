@@ -86,7 +86,7 @@ class GuiSlotRelay extends GuiSlot {
                 } else {
                     String pingComment = srv.getPingComment().trim();
                     if (pingComment.length() > 0) {
-                        comment = pingComment;
+//                        comment = pingComment;
                     }
                     str = "" + ping + "ms";
                     if (ping < 150L) {

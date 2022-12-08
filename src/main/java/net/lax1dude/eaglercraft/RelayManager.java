@@ -3,9 +3,9 @@ package net.lax1dude.eaglercraft;
 import net.lax1dude.eaglercraft.sp.relay.pkt.IPacket;
 import net.lax1dude.eaglercraft.sp.relay.pkt.IPacket00Handshake;
 import net.lax1dude.eaglercraft.sp.relay.pkt.IPacketFFErrorCode;
-import net.minecraft.src.NBTBase;
-import net.minecraft.src.NBTTagCompound;
-import net.minecraft.src.NBTTagList;
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
 
 import java.util.ArrayList;
 import java.util.Iterator;

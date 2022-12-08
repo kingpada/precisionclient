@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.blocks.BlockHalfSlab;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemSlab extends ItemBlock {
     private final boolean isFullBlock;
 

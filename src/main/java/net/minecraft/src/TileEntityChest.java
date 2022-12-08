@@ -1,5 +1,11 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.blocks.BlockChest;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 public class TileEntityChest extends TileEntity implements IInventory {
     private ItemStack[] chestContents = new ItemStack[36];
 

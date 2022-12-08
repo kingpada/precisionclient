@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 public class TileEntityFurnace extends TileEntity implements ISidedInventory {
     private static final int[] field_102010_d = new int[]{0};
     private static final int[] field_102011_e = new int[]{2, 1};

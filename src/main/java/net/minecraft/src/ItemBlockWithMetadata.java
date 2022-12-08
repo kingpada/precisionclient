@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ItemBlockWithMetadata extends ItemBlock {
     private final Block theBlock;
 

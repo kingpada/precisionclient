@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.blocks.Block;
+
 public abstract class WorldProvider {
     /**
      * world object being used

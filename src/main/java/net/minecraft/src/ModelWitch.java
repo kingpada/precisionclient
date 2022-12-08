@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelWitch extends ModelVillager {
     public boolean field_82900_g = false;
     private final ModelRenderer field_82901_h = (new ModelRenderer(this)).setTextureSize(64, 128);

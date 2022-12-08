@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.*;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

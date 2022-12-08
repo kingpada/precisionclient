@@ -4,6 +4,8 @@ import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityFishHook;
 
 public class RenderFish extends Render {
 

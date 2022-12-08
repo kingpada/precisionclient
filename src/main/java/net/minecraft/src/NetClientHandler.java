@@ -3,6 +3,8 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.RateLimit;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.containers.Container;
+import net.minecraft.src.entity.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;

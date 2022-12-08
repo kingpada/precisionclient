@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 import java.util.HashMap;
 import java.util.Map;
 

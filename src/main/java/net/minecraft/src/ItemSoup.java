@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemSoup extends ItemFood {
     public ItemSoup(int par1, int par2) {
         super(par1, par2, false);

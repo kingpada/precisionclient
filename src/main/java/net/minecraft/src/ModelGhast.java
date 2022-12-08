@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.entity.Entity;
 
 public class ModelGhast extends ModelBase {
     ModelRenderer body;

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityList;
+import net.minecraft.src.entity.EntityLiving;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;

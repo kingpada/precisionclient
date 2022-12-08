@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ItemAxe extends ItemTool {
     /**
      * an array of the blocks this axe is effective against

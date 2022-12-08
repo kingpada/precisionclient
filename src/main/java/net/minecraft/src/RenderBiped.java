@@ -1,6 +1,10 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayerSP;
 
 public abstract class RenderBiped extends RenderLiving {
     protected ModelBiped modelBipedMain;

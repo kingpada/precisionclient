@@ -120,7 +120,7 @@ voice.ipGrabWarning8=the other player uses a hacked web browser
 voice.ipGrabWarning9=or has Wireshark to capture the voice
 voice.ipGrabWarning10=packets, as there exists no real javascript
 voice.ipGrabWarning11=method to log IPs using a normal skidded
-voice.ipGrabWarning12=eaglercraft hacked client.
+voice.ipGrabWarning12=hacked client.
 
 selectWorld.title=Select World
 selectWorld.empty=empty
@@ -1472,16 +1472,18 @@ advMode.allPlayers=Use "@a" to target all players
 advMode.notEnabled=Command blocks are not enabled on this server
 advMode.notAllowed=Must be an opped player in creative mode
 
-prcmenu.title=Precision Menu
+prcmenu.title=§cmca§fcraft Menu
 prcmenu.mods=Mods
 prcmenu.options=Options
-prcmenu.options.title=Precision Options
-prcmenu.mods.title=Precision Mods
+prcmenu.options.title=§cmca§fcraft Options
+prcmenu.mods.title=§cmca§fcraft Mods
 prcmenu.mods.keyStrokesOptions.title=Keystrokes Options
 prcmenu.mods.fullBrightOptions.title=Fullbright Options
+
 
 prcmenu.options.dynamicFOV=Dynamic FOV
 prcmenu.options.vignette=Vignette
 prcmenu.options.rain=Rain
+prcmenu.options.advancedItemTooltips=Advanced Item Tooltips
 prcmenu.mods.fullBright=Fullbright
 prcmenu.mods.keyStrokes=Keystrokes

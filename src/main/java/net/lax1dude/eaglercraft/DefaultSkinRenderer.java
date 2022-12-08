@@ -3,6 +3,9 @@ package net.lax1dude.eaglercraft;
 import net.lax1dude.eaglercraft.EaglerProfile.EaglerProfileCape;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.*;
+import net.minecraft.src.entity.EntityClientPlayerMP;
+import net.minecraft.src.entity.EntityOtherPlayerMP;
+import net.minecraft.src.entity.EntityPlayer;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySheep;
+
 public class ModelSheep1 extends ModelQuadruped {
     private float field_78152_i;
 

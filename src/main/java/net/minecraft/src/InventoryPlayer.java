@@ -1,5 +1,11 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 public class InventoryPlayer implements IInventory {
     /**
      * An array of 36 item stacks indicating the main player inventory (including

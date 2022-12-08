@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.WebsocketNetworkManager;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class ItemEnderPearl extends Item {
     public ItemEnderPearl(int par1) {

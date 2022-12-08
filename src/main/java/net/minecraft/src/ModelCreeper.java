@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelCreeper extends ModelBase {
     public ModelRenderer head;
     public ModelRenderer field_78133_b;

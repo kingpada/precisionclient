@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 final class CreativeTabDeco extends CreativeTabs {
     CreativeTabDeco(int par1, String par2Str) {
         super(par1, par2Str);

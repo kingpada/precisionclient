@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPlayer;
+
 public interface IWorldAccess {
     /**
      * On the client, re-renders the block. On the server, sends the block to the

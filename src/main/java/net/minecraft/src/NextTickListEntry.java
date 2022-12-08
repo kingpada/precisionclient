@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class NextTickListEntry implements Comparable {
     /**
      * The id number for the next tick entry

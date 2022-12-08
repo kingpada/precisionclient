@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelSilverfish extends ModelBase {
     /**
      * The body parts of the silverfish's model.

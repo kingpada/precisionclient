@@ -4,6 +4,9 @@ import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.ServerQuery.QueryResponse;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.RateLimit;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.nbt.NBTTagString;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

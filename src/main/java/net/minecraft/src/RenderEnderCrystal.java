@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityEnderCrystal;
 
 public class RenderEnderCrystal extends Render {
     private int field_76996_a = -1;

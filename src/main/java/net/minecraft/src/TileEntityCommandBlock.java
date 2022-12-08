@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class TileEntityCommandBlock extends TileEntity implements ICommandSender {
     private int succesCount = 0;
 

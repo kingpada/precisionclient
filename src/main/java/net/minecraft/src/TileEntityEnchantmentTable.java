@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 public class TileEntityEnchantmentTable extends TileEntity {
     /**

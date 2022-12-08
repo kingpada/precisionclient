@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelBook extends ModelBase {
     /**
      * Right cover renderer (when facing the book)

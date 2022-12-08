@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 class SlotCreativeInventory extends Slot {
     private final Slot theSlot;
 

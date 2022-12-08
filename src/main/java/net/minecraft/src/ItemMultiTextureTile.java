@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ItemMultiTextureTile extends ItemBlock {
     private final Block theBlock;
     private final String[] field_82804_b;

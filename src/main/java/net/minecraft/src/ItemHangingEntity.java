@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityHanging;
+import net.minecraft.src.entity.EntityItemFrame;
+import net.minecraft.src.entity.EntityPainting;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemHangingEntity extends Item {
     private final Class hangingEntityClass;
 

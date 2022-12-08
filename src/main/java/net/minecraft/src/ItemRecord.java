@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityPlayer;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

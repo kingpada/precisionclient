@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemBed extends Item {
     public ItemBed(int par1) {
         super(par1);

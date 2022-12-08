@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
-class SlotRepair extends Slot {
+import net.minecraft.src.containers.ContainerRepair;
+import net.minecraft.src.entity.EntityPlayer;
+
+public class SlotRepair extends Slot {
     final World theWorld;
 
     final int blockPosX;
@@ -14,7 +17,7 @@ class SlotRepair extends Slot {
      */
     final ContainerRepair anvil;
 
-    SlotRepair(ContainerRepair par1ContainerRepair, IInventory par2IInventory, int par3, int par4, int par5, World par6World, int par7, int par8, int par9) {
+    public SlotRepair(ContainerRepair par1ContainerRepair, IInventory par2IInventory, int par3, int par4, int par5, World par6World, int par7, int par8, int par9) {
         super(par2IInventory, par3, par4, par5);
         this.anvil = par1ContainerRepair;
         this.theWorld = par6World;

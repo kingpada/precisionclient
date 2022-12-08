@@ -1,12 +1,14 @@
 package net.minecraft.src;
 
-class SlotEnchantment extends Slot {
+import net.minecraft.src.containers.ContainerEnchantment;
+
+public class SlotEnchantment extends Slot {
     /**
      * The brewing stand this slot belongs to.
      */
     final ContainerEnchantment container;
 
-    SlotEnchantment(ContainerEnchantment par1ContainerEnchantment, IInventory par2IInventory, int par3, int par4, int par5) {
+    public SlotEnchantment(ContainerEnchantment par1ContainerEnchantment, IInventory par2IInventory, int par3, int par4, int par5) {
         super(par2IInventory, par3, par4, par5);
         this.container = par1ContainerEnchantment;
     }

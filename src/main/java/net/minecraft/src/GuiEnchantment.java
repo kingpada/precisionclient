@@ -3,6 +3,8 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.ContainerEnchantment;
+import net.minecraft.src.enchantments.EnchantmentNameParts;
 
 public class GuiEnchantment extends GuiContainer {
     /**

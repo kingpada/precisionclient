@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class SlotMerchantResult extends Slot {
     /**
      * Merchant's inventory.

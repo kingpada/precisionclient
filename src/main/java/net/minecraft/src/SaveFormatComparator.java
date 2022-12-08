@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class SaveFormatComparator implements Comparable {
     /**
      * the file name of this save

@@ -4,6 +4,7 @@ import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.FramebufferGL;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.TextureGL;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.*;
+import net.minecraft.src.blocks.Block;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

@@ -2,6 +2,7 @@ package net.lax1dude.eaglercraft;
 
 import net.lax1dude.eaglercraft.sp.ipc.IPCPacket05RequestData;
 import net.minecraft.src.*;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 public class GuiScreenBackupWorld extends GuiScreen {
 

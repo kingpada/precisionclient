@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemEmptyMap extends ItemMapBase {
     protected ItemEmptyMap(int par1) {
         super(par1);

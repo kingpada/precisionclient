@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemFood extends Item {
     /**
      * Number of ticks to run while 'EnumAction'ing until result.

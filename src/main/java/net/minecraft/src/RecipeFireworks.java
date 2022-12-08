@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+
 import java.util.ArrayList;
 
 public class RecipeFireworks implements IRecipe {

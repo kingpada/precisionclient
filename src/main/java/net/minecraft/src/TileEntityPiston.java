@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

@@ -3,6 +3,8 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.*;
+import net.minecraft.src.entity.EntityRenderer;
 
 public class RenderBlocks {
     /**

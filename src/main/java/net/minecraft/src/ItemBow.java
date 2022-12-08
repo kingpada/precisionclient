@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.enchantments.Enchantment;
+import net.minecraft.src.enchantments.EnchantmentHelper;
+import net.minecraft.src.entity.EntityArrow;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemBow extends Item {
     public static final String[] bowPullIconNameArray = new String[]{"bow_pull_0", "bow_pull_1", "bow_pull_2"};
     private Icon[] iconArray;

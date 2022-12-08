@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
 
 import java.util.ArrayList;
 import java.util.HashMap;

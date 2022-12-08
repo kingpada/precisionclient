@@ -1,6 +1,10 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityCow;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemBucket extends Item {
     /**
      * field for checking if the bucket has been filled.

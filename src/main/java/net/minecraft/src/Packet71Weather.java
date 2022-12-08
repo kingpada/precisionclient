@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLightningBolt;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ChunkCache implements IBlockAccess {
     private final int chunkX;
     private final int chunkZ;

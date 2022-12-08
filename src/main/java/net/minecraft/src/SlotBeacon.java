@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
-class SlotBeacon extends Slot {
+import net.minecraft.src.containers.ContainerBeacon;
+
+public class SlotBeacon extends Slot {
     /**
      * The beacon this slot belongs to.
      */

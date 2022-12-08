@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPigZombie;
+import net.minecraft.src.entity.EntityZombie;
 
 public class RenderZombie extends RenderBiped {
     private final ModelBiped field_82434_o;

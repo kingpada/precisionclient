@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityChicken;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderChicken extends RenderLiving {
     public RenderChicken(ModelBase par1ModelBase, float par2) {

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySnowman;
 
 public class RenderSnowMan extends RenderLiving {
     /**

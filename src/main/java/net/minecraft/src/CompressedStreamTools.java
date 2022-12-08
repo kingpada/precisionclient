@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import com.jcraft.jzlib.GZIPInputStream;
 import com.jcraft.jzlib.GZIPOutputStream;
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.io.*;
 

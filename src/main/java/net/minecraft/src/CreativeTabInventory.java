@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 final class CreativeTabInventory extends CreativeTabs {
     CreativeTabInventory(int par1, String par2Str) {
         super(par1, par2Str);

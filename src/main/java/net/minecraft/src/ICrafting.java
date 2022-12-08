@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.containers.Container;
+
 import java.util.List;
 
 public interface ICrafting {

@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagIntArray;
+
 import java.util.List;
 
 public class ItemFireworkCharge extends Item {

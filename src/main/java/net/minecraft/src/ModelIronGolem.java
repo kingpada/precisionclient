@@ -1,6 +1,10 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityIronGolem;
+import net.minecraft.src.entity.EntityLiving;
+
 public class ModelIronGolem extends ModelBase {
     /**
      * The head model for the iron golem.

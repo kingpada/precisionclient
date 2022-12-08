@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.BlockCloth;
+import net.minecraft.src.entity.EntitySheep;
+
 import java.util.ArrayList;
 
 

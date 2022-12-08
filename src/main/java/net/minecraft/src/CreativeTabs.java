@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.enchantments.Enchantment;
+import net.minecraft.src.enchantments.EnchantmentData;
+
 import java.util.List;
 
 public class CreativeTabs {

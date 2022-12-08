@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
-class SlotBrewingStandPotion extends Slot {
+import net.minecraft.src.entity.EntityPlayer;
+
+public class SlotBrewingStandPotion extends Slot {
     /**
      * The player that has this container open.
      */

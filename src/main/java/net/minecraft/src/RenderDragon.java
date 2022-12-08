@@ -4,6 +4,9 @@ import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityDragon;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderDragon extends RenderLiving {
     /**

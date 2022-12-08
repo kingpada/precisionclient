@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelVillager extends ModelBase {
     /**
      * The head box of the VillagerModel

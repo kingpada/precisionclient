@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemSeeds extends Item {
     /**
      * The type of block this seed turns into (wheat or pumpkin stems for instance)

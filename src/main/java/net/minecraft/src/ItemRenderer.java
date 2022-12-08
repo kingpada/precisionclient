@@ -4,6 +4,10 @@ import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityClientPlayerMP;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayerSP;
 
 public class ItemRenderer {
     /**

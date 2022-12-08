@@ -2,7 +2,7 @@ package net.lax1dude.eaglercraft;
 
 import net.minecraft.src.Achievement;
 import net.minecraft.src.CompressedStreamTools;
-import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.io.IOException;
 

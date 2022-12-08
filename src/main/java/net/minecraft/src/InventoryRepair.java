@@ -1,12 +1,14 @@
 package net.minecraft.src;
 
-class InventoryRepair extends InventoryBasic {
+import net.minecraft.src.containers.ContainerRepair;
+
+public class InventoryRepair extends InventoryBasic {
     /**
      * Container of this anvil's block.
      */
     final ContainerRepair theContainer;
 
-    InventoryRepair(ContainerRepair par1ContainerRepair, String par2Str, boolean par3, int par4) {
+    public InventoryRepair(ContainerRepair par1ContainerRepair, String par2Str, boolean par3, int par4) {
         super(par2Str, par3, par4);
         this.theContainer = par1ContainerRepair;
     }

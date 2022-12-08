@@ -3,7 +3,7 @@ package net.lax1dude.eaglercraft.glemu;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.EntityLiving;
+import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.GLAllocation;
 import net.minecraft.src.MathHelper;
 

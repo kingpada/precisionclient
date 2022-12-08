@@ -1,7 +1,7 @@
 package net.minecraft.src;
 
-final class StepSoundAnvil extends StepSound {
-    StepSoundAnvil(String par1Str, float par2, float par3) {
+public final class StepSoundAnvil extends StepSound {
+    public StepSoundAnvil(String par1Str, float par2, float par3) {
         super(par1Str, par2, par3);
     }
 

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.blocks.BlockCloth;
+
 public class RecipesDyes {
     /**
      * Adds the dye recipes to the CraftingManager.

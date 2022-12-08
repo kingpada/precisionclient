@@ -3,6 +3,10 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityArrow;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityOtherPlayerMP;
 
 
 public abstract class RenderLiving extends Render {

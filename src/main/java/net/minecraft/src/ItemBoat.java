@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityBoat;
+import net.minecraft.src.entity.EntityPlayer;
+
 import java.util.List;
 
 

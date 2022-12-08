@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
 
 import java.util.*;
 

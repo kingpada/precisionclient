@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySheep;
+import net.minecraft.src.entity.EntityWolf;
 
 public class RenderWolf extends RenderLiving {
     public RenderWolf(ModelBase par1ModelBase, ModelBase par2ModelBase, float par3) {

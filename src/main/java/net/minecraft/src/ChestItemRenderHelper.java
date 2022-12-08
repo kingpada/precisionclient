@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ChestItemRenderHelper {
     /**
      * The static instance of ChestItemRenderHelper.

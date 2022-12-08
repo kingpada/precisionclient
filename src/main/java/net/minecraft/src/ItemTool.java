@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+
 public class ItemTool extends Item {
     /**
      * Array of blocks the tool has extra effect against.

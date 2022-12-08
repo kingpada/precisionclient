@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemFireball extends Item {
     public ItemFireball(int par1) {
         super(par1);

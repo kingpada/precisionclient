@@ -3,6 +3,8 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.glemu.vector.Matrix4f;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.*;
 
 public class RenderPlayer extends RenderLiving {
     private final ModelBiped modelBipedMain;

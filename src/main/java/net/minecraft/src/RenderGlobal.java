@@ -5,6 +5,8 @@ import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.*;
 
 import java.util.*;
 

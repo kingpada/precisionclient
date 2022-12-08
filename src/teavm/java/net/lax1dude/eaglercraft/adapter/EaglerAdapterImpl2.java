@@ -141,6 +141,7 @@ public class EaglerAdapterImpl2 {
         request.send();
     }
 
+
     @JSBody(params = {"v", "s"}, script = "window[v] = s;")
     public static native void setDebugVar(String v, String s);
 

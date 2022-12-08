@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityTNTPrimed;
 
 public class RenderTNTPrimed extends Render {
     private final RenderBlocks blockRenderer = new RenderBlocks();

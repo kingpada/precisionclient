@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class PotionEffect {
     /**
      * ID value of the potion this effect matches.

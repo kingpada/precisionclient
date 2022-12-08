@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelSlime extends ModelBase {
     /**
      * The slime's bodies, both the inside box and the outside box

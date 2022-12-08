@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public interface IPlayerFileData {
     /**
      * Writes the player data to disk from the specified PlayerEntityMP.

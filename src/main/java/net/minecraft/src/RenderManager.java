@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.*;
 
 import java.util.*;
 

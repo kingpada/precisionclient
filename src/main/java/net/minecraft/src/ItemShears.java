@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityLiving;
+
 public class ItemShears extends Item {
     public ItemShears(int par1) {
         super(par1);

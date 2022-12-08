@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class NpcMerchant implements IMerchant {
     /**
      * Instance of Merchants Inventory.

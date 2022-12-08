@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class FoodStats {
     /**
      * The player's food level.

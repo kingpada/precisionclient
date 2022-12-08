@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ItemSpade extends ItemTool {
     /**
      * an array of the blocks this spade is effective against

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class ItemColored extends ItemBlock {
     private final Block blockRef;
     private String[] blockNames;

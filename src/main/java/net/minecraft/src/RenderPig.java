@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPig;
 
 public class RenderPig extends RenderLiving {
     public RenderPig(ModelBase par1ModelBase, ModelBase par2ModelBase, float par3) {

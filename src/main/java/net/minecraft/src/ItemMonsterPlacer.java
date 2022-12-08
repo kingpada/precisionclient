@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.*;
+
 import java.util.Iterator;
 import java.util.List;
 

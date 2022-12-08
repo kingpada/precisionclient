@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.EntityMinecartTNT;
 
 public class RenderTntMinecart extends RenderMinecart {
     protected void func_94146_a(EntityMinecartTNT par1EntityMinecartTNT, float par2, Block par3Block, int par4) {

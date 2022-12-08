@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.nbt.NBTTagString;
+
 public class ItemWritableBook extends Item {
     public ItemWritableBook(int par1) {
         super(par1);

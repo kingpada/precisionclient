@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
+import net.minecraft.src.entity.EntityList;
 
 public class TileEntityMobSpawnerRenderer extends TileEntitySpecialRenderer {
 

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.EntityPlayerSP;
+
 public class SoundUpdaterMinecart implements IUpdatePlayerListBox {
     private final SoundManager theSoundManager;
 

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public class TileEntitySign extends TileEntity {
     /**
      * An array of four strings storing the lines of text on the sign.

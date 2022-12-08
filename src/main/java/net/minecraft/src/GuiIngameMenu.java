@@ -6,12 +6,12 @@ import prc.etcherfx.precision.GuiScreenPrcMenu;
 
 public class GuiIngameMenu extends GuiScreen {
 
-    private final GuiVoiceMenu voiceMenu;
+//    private final GuiVoiceMenu voiceMenu;
 
     private GuiButton lanButton;
 
     public GuiIngameMenu() {
-        voiceMenu = new GuiVoiceMenu(this);
+//        voiceMenu = new GuiVoiceMenu(this);
     }
 
     /**
@@ -95,7 +95,7 @@ public class GuiIngameMenu extends GuiScreen {
     public void updateScreen() {
         super.updateScreen();
         if (!mc.isSingleplayer() || IntegratedServerLAN.isHostingLAN()) {
-            voiceMenu.updateScreen();
+//            voiceMenu.updateScreen();
         }
         if (EaglerAdapter.isPointerLocked()) {
             EaglerAdapter.mouseSetGrabbed(false);
@@ -153,12 +153,14 @@ public class GuiIngameMenu extends GuiScreen {
 
         try {
             if (!mc.isSingleplayer() || IntegratedServerLAN.isHostingLAN()) {
-                if (voiceMenu.isBlockingInput()) {
-                    super.drawScreen(0, 0, par3);
-                } else {
-                    super.drawScreen(par1, par2, par3);
-                }
-                voiceMenu.drawScreen(par1, par2, par3);
+//                if (voiceMenu.isBlockingInput()) {
+//                    super.drawScreen(0, 0, par3);
+//                } else {
+//                    super.drawScreen(par1, par2, par3);
+//                }
+
+                super.drawScreen(par1, par2, par3);
+//                voiceMenu.drawScreen(par1, par2, par3);
             } else {
                 super.drawScreen(par1, par2, par3);
             }
@@ -174,7 +176,7 @@ public class GuiIngameMenu extends GuiScreen {
     protected void keyTyped(char par1, int par2) {
         try {
             if (!mc.isSingleplayer() || IntegratedServerLAN.isHostingLAN()) {
-                voiceMenu.keyTyped(par1, par2);
+//                voiceMenu.keyTyped(par1, par2);
             }
             super.keyTyped(par1, par2);
         } catch (AbortedException ex) {
@@ -187,7 +189,7 @@ public class GuiIngameMenu extends GuiScreen {
     protected void mouseClicked(int par1, int par2, int par3) {
         try {
             if (!mc.isSingleplayer() || IntegratedServerLAN.isHostingLAN()) {
-                voiceMenu.mouseClicked(par1, par2, par3);
+//                voiceMenu.mouseClicked(par1, par2, par3);
             }
             if (par3 == 0) {
                 StringTranslate var1 = StringTranslate.getInstance();
@@ -220,13 +222,13 @@ public class GuiIngameMenu extends GuiScreen {
 
     public void setWorldAndResolution(Minecraft par1Minecraft, int par2, int par3) {
         super.setWorldAndResolution(par1Minecraft, par2, par3);
-        voiceMenu.setWorldAndResolution(par1Minecraft, par2, par3);
+//        voiceMenu.setWorldAndResolution(par1Minecraft, par2, par3);
     }
 
     protected void mouseMovedOrUp(int par1, int par2, int par3) {
         try {
             if (!mc.isSingleplayer() || IntegratedServerLAN.isHostingLAN()) {
-                voiceMenu.mouseMovedOrUp(par1, par2, par3);
+//                voiceMenu.mouseMovedOrUp(par1, par2, par3);
             }
             super.mouseMovedOrUp(par1, par2, par3);
         } catch (AbortedException ex) {

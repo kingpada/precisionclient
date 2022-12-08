@@ -3,6 +3,8 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPotion;
 
 public class RenderSnowball extends Render {
     private final Item field_94151_a;

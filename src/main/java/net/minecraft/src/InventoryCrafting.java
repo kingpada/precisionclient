@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.containers.Container;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class InventoryCrafting implements IInventory {
     /**
      * List of the stacks in the crafting matrix.

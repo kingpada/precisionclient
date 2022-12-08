@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.containers.Container;
+import net.minecraft.src.containers.ContainerCreative;
+import net.minecraft.src.enchantments.Enchantment;
+import net.minecraft.src.entity.EntityPlayer;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -690,7 +694,7 @@ public class GuiContainerCreative extends InventoryEffectRenderer {
     /**
      * Returns the creative inventory
      */
-    static InventoryBasic getInventory() {
+    public static InventoryBasic getInventory() {
         return inventory;
     }
 

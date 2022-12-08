@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTTagCompound;
+
 public abstract class WorldSavedData {
     /**
      * The name of the map data nbt

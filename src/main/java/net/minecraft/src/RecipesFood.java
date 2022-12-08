@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.Block;
+
 public class RecipesFood {
     /**
      * Adds the food recipes to the CraftingManager.

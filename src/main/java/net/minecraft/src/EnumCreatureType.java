@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityAmbientCreature;
+import net.minecraft.src.entity.EntityAnimal;
+import net.minecraft.src.entity.EntityWaterMob;
+
 public enum EnumCreatureType {
     monster(IMob.class, 70, Material.air, false, false), creature(EntityAnimal.class, 10, Material.air, true, true), ambient(EntityAmbientCreature.class, 15, Material.air, true, false),
     waterCreature(EntityWaterMob.class, 5, Material.water, true, false);

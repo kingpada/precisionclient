@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelSkeletonHead extends ModelBase {
     public ModelRenderer skeletonHead;
 

@@ -3,6 +3,10 @@ package net.minecraft.src;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.blocks.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityEnderman;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderEnderman extends RenderLiving {
     /**

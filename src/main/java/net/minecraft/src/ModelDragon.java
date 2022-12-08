@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityDragon;
+import net.minecraft.src.entity.EntityLiving;
 
 
 public class ModelDragon extends ModelBase {

@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.blocks.*;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntitySheep;
+
 import java.util.List;
 
 public class ItemDye extends Item {

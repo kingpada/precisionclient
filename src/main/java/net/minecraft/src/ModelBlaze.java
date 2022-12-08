@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelBlaze extends ModelBase {
     /**
      * The sticks that fly around the Blaze.

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.nbt.NBTBase;
+import net.minecraft.src.nbt.NBTTagCompound;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.TreeMap;

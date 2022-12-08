@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySkeleton;
+
 public class ModelSkeleton extends ModelZombie {
     public ModelSkeleton() {
         this(0.0F);

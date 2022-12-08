@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.nbt.NBTTagString;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySlime;
 
 public class RenderSlime extends RenderLiving {
     private final ModelBase scaleAmount;

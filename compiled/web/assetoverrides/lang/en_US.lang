@@ -167,9 +167,9 @@ selectWorld.backup.clearPlayerData.warning2=All players in '$world$' will lose t
 
 selectWorld.create.title=What do you wanna do?
 selectWorld.create.create=Create New World
-selectWorld.create.create.tooltip=Make a new world for eaglercraft
+selectWorld.create.create.tooltip=Make a new world for mcacraft
 selectWorld.create.import=Load EPK File
-selectWorld.create.import.tooltip=Load an Eaglercraft .epk world file
+selectWorld.create.import.tooltip=Load an mcacraft .epk world file
 selectWorld.create.vanilla=Import Vanilla World
 selectWorld.create.vanilla.tooltip=Load a vanilla minecraft 1.5.2 world
 

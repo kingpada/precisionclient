@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class FilterIMob implements IEntitySelector {
+public final class FilterIMob implements IEntitySelector {
     /**
      * Return whether the specified entity is applicable to this filter.
      */

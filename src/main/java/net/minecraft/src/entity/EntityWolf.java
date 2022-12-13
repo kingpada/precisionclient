@@ -1,9 +1,13 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.BlockCloth;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemFood;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntityWolf extends EntityTameable {
     private float field_70926_e;

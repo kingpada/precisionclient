@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.ChunkCoordinates;
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.chunk.ChunkCoordinates;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.MathHelper;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.util.Calendar;

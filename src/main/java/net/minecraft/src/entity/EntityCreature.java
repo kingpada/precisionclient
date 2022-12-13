@@ -1,9 +1,9 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.PathEntity;
-import net.minecraft.src.Vec3;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.path.PathEntity;
+import net.minecraft.src.utils.Vec3;
 
 public abstract class EntityCreature extends EntityLiving {
     private PathEntity pathToEntity;

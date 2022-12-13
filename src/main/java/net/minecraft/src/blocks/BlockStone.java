@@ -1,8 +1,8 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Material;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.materials.Material;
 
 public class BlockStone extends Block {
     public BlockStone(int par1) {

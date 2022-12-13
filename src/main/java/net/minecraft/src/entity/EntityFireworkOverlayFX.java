@@ -2,8 +2,8 @@ package net.minecraft.src.entity;
 
 
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class EntityFireworkOverlayFX extends EntityFX {
     protected EntityFireworkOverlayFX(World par1World, double par2, double par4, double par6) {

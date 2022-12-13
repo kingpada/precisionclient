@@ -1,7 +1,7 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.ChunkPosition;
-import net.minecraft.src.World;
+import net.minecraft.src.chunk.ChunkPosition;
+import net.minecraft.src.world.World;
 
 import java.util.ArrayList;
 import java.util.List;

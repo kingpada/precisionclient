@@ -1,7 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.IEntitySelector;
-import net.minecraft.src.IInventory;
+import net.minecraft.src.inventory.IInventory;
 
 public final class EntitySelectorInventory implements IEntitySelector {
     /**

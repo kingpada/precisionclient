@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class DispenserBehaviorMobEgg extends BehaviorDefaultDispenseItem {
+public final class DispenserBehaviorMobEgg extends BehaviorDefaultDispenseItem {
     /**
      * Dispense the specified stack, play the dispense sound and spawn particles.
      */

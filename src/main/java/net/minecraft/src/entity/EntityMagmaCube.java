@@ -1,6 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
+import net.minecraft.src.items.Item;
 
 public class EntityMagmaCube extends EntitySlime {
     public EntityMagmaCube() {

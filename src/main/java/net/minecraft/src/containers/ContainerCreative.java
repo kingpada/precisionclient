@@ -1,9 +1,9 @@
 package net.minecraft.src.containers;
 
-import net.minecraft.src.GuiContainerCreative;
-import net.minecraft.src.InventoryPlayer;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.Slot;
+import net.minecraft.src.gui.screens.GuiContainerCreative;
+import net.minecraft.src.inventory.InventoryPlayer;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.slot.Slot;
 import net.minecraft.src.entity.EntityPlayer;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.Material;
+import net.minecraft.src.materials.Material;
 
 public abstract class BlockDirectional extends Block {
     protected BlockDirectional(int par1, Material par2Material) {

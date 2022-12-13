@@ -2,7 +2,7 @@ package net.minecraft.src.entity;
 
 
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.World;
+import net.minecraft.src.world.World;
 
 public class EntityCritFX extends EntityFX {
     float field_70561_a;

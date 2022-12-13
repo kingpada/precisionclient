@@ -1,7 +1,7 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.GuiButton;
-import net.minecraft.src.GuiScreen;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiScreen;
 
 public class GuiScreenSingleplayerNotImplemented extends GuiScreen {
 

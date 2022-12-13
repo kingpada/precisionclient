@@ -1,9 +1,8 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.IBlockAccess;
-import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockFlowing extends BlockFluid {
     /**

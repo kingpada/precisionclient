@@ -1,9 +1,15 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.enchantments.Enchantment;
 import net.minecraft.src.enchantments.EnchantmentHelper;
+import net.minecraft.src.enums.EnumCreatureAttribute;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.potion.PotionEffect;
+import net.minecraft.src.stats.data.achievements.AchievementList;
 
 public class EntitySkeleton extends EntityMob implements IRangedAttackMob {
 

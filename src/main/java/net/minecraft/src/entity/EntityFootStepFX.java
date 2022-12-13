@@ -3,9 +3,9 @@ package net.minecraft.src.entity;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.RenderEngine;
-import net.minecraft.src.World;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.render.RenderEngine;
+import net.minecraft.src.world.World;
 
 public class EntityFootStepFX extends EntityFX {
     private int field_70576_a = 0;

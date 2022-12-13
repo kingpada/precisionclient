@@ -1,6 +1,10 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.*;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.screens.GuiMultiplayer;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.gui.screens.GuiScreenDirectConnect;
+import net.minecraft.src.utils.StringTranslate;
 
 public class GuiScreenConnectOption extends GuiScreen {
 

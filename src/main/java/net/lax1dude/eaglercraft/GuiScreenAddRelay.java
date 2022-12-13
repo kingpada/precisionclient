@@ -1,9 +1,9 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.GuiButton;
-import net.minecraft.src.GuiScreen;
-import net.minecraft.src.GuiTextField;
-import net.minecraft.src.StringTranslate;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.gui.components.GuiTextField;
+import net.minecraft.src.utils.StringTranslate;
 
 public class GuiScreenAddRelay extends GuiScreen {
 

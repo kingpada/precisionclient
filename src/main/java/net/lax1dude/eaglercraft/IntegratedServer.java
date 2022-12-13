@@ -1,10 +1,10 @@
 package net.lax1dude.eaglercraft;
 
 import net.lax1dude.eaglercraft.sp.ipc.*;
-import net.minecraft.src.EnumGameType;
+import net.minecraft.src.enums.EnumGameType;
 import net.minecraft.src.nbt.NBTTagCompound;
-import net.minecraft.src.NetHandler;
-import net.minecraft.src.WorldSettings;
+import net.minecraft.src.network.NetHandler;
+import net.minecraft.src.world.WorldSettings;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,7 +1,12 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.screens.GuiDisconnected;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.network.NetClientHandler;
+import net.minecraft.src.packet.packets.Packet250CustomPayload;
+import net.minecraft.src.packet.packets.Packet2ClientProtocol;
 
 import java.io.IOException;
 

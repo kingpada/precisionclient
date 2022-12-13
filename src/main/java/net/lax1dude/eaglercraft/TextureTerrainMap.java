@@ -3,8 +3,11 @@ package net.lax1dude.eaglercraft;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.FramebufferGL;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2.TextureGL;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.render.RenderManager;
+import net.minecraft.src.texture.GLAllocation;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

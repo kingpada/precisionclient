@@ -1,6 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.WorldRenderer;
+import net.minecraft.src.world.WorldRenderer;
 
 import java.util.Comparator;
 

@@ -1,7 +1,11 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.world.World;
 
 public class BlockFarmland extends Block {
     private Icon field_94441_a;

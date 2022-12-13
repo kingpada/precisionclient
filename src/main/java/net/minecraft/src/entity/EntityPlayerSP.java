@@ -2,7 +2,20 @@ package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.LocalStorageManager;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
+import net.minecraft.src.chunk.ChunkCoordinates;
+import net.minecraft.src.gui.screens.*;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.player.controller.MouseFilter;
+import net.minecraft.src.player.controller.MovementInput;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.stats.StatBase;
+import net.minecraft.src.stats.data.achievements.Achievement;
+import net.minecraft.src.tileentity.*;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class EntityPlayerSP extends EntityPlayer {
     public MovementInput movementInput;

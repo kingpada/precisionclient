@@ -1,7 +1,7 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.Item;
+import net.minecraft.src.items.Item;
 
 public class BlockGravel extends BlockSand {
     public BlockGravel(int par1) {

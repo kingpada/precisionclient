@@ -1,7 +1,11 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.enums.EnumCreatureAttribute;
+import net.minecraft.src.enums.EnumEnchantmentType;
+import net.minecraft.src.items.objects.ItemAxe;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.utils.MathHelper;
 
 public class EnchantmentDamage extends Enchantment {
     /**

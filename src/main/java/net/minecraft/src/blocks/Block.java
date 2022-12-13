@@ -1,11 +1,29 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
 import net.minecraft.src.enchantments.EnchantmentHelper;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.enums.EnumMobType;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.*;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.render.misc.noise.NoiseGeneratorPerlin;
+import net.minecraft.src.particle.Explosion;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.sounds.StepSound;
+import net.minecraft.src.sounds.StepSoundAnvil;
+import net.minecraft.src.sounds.StepSoundSand;
+import net.minecraft.src.sounds.StepSoundStone;
+import net.minecraft.src.stats.StatCollector;
+import net.minecraft.src.tileentity.TileEntitySign;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 import java.util.List;
 

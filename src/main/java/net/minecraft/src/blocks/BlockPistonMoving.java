@@ -1,8 +1,14 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityPiston;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.world.Facing;
+import net.minecraft.src.world.World;
 
 public class BlockPistonMoving extends BlockContainer {
     public BlockPistonMoving(int par1) {

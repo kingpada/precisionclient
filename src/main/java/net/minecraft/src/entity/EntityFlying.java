@@ -1,6 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.utils.MathHelper;
 import net.minecraft.src.blocks.Block;
 
 public abstract class EntityFlying extends EntityLiving {

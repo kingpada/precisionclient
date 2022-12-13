@@ -5,7 +5,7 @@ import net.lax1dude.eaglercraft.*;
 import net.lax1dude.eaglercraft.adapter.teavm.*;
 import net.lax1dude.eaglercraft.sp.relay.pkt.*;
 import net.lax1dude.eaglercraft.sp.relay.pkt.IPacket07LocalWorlds.LocalWorld;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.utils.MathHelper;
 import org.json.JSONObject;
 import org.teavm.interop.Async;
 import org.teavm.interop.AsyncCallback;
@@ -89,6 +89,21 @@ public class EaglerAdapterImpl2 {
         } else {
             return contents.replace("\r\n", "\n").split("[\r\n]");
         }
+    }
+
+
+    public static String coloredText(String str) {
+        String colorCodes = "0123456789abcdefklmnor";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '&') {
+                if (colorCodes.indexOf(str.charAt(i + 1)) != -1) {
+                    str = str.substring(0, i) + "\u00a7" + str.substring(i + 1);
+                }
+            }
+        }
+
+        return str;
     }
 
     @Async

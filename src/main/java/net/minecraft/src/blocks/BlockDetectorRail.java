@@ -1,8 +1,13 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.*;
 import net.minecraft.src.containers.Container;
 import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.IEntitySelector;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.world.World;
 
 import java.util.List;
 

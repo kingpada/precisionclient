@@ -1,10 +1,10 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.GuiButton;
-import net.minecraft.src.GuiScreen;
-import net.minecraft.src.GuiSlider2;
-import net.minecraft.src.StringTranslate;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.gui.components.GuiSlider2;
+import net.minecraft.src.utils.StringTranslate;
 
 public class GuiScreenChangeRelayTimeout extends GuiScreen {
 

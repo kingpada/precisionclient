@@ -1,8 +1,8 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.INetworkManager;
-import net.minecraft.src.NetHandler;
-import net.minecraft.src.Packet;
+import net.minecraft.src.network.interfaces.INetworkManager;
+import net.minecraft.src.network.NetHandler;
+import net.minecraft.src.packet.Packet;
 
 import java.io.*;
 import java.nio.ByteBuffer;

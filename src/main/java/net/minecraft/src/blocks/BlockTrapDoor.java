@@ -1,7 +1,12 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 public class BlockTrapDoor extends Block {
     protected BlockTrapDoor(int par1, Material par2Material) {

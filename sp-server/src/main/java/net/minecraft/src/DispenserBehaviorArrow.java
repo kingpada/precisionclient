@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class DispenserBehaviorArrow extends BehaviorProjectileDispense {
+public final class DispenserBehaviorArrow extends BehaviorProjectileDispense {
     /**
      * Return the projectile entity spawned by this dispense behavior.
      */

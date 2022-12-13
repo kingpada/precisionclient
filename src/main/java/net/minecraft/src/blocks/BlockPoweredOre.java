@@ -1,7 +1,6 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.IBlockAccess;
+import net.minecraft.src.creative.CreativeTabs;
 
 public class BlockPoweredOre extends BlockOreStorage {
     public BlockPoweredOre(int par1) {

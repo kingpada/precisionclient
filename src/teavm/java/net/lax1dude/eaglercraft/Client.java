@@ -3,7 +3,7 @@ package net.lax1dude.eaglercraft;
 import net.lax1dude.eaglercraft.adapter.DetectAnisotropicGlitch;
 import net.lax1dude.eaglercraft.adapter.EaglerAdapterImpl2;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.ServerList;
+import net.minecraft.src.network.ServerList;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.teavm.jso.JSBody;

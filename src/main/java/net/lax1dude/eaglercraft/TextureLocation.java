@@ -1,7 +1,7 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.RenderEngine;
+import net.minecraft.src.render.RenderEngine;
 
 import java.util.ArrayList;
 

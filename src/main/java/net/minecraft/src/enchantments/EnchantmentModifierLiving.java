@@ -1,10 +1,9 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.Empty3;
+import net.minecraft.src.utils.Empty3;
 import net.minecraft.src.entity.EntityLiving;
-import net.minecraft.src.IEnchantmentModifier;
 
-final class EnchantmentModifierLiving implements IEnchantmentModifier {
+public final class EnchantmentModifierLiving implements IEnchantmentModifier {
     /**
      * Used to calculate the (magic) extra damage based on enchantments of current
      * equipped player item.

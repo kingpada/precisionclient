@@ -1,6 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.World;
+import net.minecraft.src.world.World;
 
 public class EntityMinecartEmpty extends EntityMinecart {
 

@@ -1,8 +1,8 @@
 package net.minecraft.src.containers;
 
-import net.minecraft.src.IInventory;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.Slot;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.slot.Slot;
 import net.minecraft.src.entity.EntityPlayer;
 
 public class ContainerChest extends Container {

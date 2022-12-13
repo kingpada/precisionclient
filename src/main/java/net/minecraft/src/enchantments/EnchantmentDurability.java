@@ -1,9 +1,9 @@
 package net.minecraft.src.enchantments;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.EnumEnchantmentType;
-import net.minecraft.src.ItemArmor;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.enums.EnumEnchantmentType;
+import net.minecraft.src.items.objects.ItemArmor;
+import net.minecraft.src.items.objects.ItemStack;
 
 public class EnchantmentDurability extends Enchantment {
     protected EnchantmentDurability(int par1, int par2) {

@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.GLAllocation;
+import net.minecraft.src.texture.GLAllocation;
 
 import java.nio.IntBuffer;
 

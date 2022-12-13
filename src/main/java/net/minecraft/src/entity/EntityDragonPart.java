@@ -1,7 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.IEntityMultiPart;
+import net.minecraft.src.player.actions.DamageSource;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 public class EntityDragonPart extends Entity {

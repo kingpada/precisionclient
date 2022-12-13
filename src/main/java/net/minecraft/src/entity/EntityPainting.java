@@ -1,9 +1,9 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.EnumArt;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.World;
+import net.minecraft.src.enums.EnumArt;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.world.World;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.util.ArrayList;

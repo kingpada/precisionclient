@@ -1,7 +1,12 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
+import net.minecraft.src.enums.EnumChatFormatting;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiSlider2;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.utils.StringTranslate;
 
 import java.util.List;
 import java.util.Set;

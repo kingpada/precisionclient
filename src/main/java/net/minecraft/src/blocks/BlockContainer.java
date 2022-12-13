@@ -1,9 +1,9 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.ITileEntityProvider;
-import net.minecraft.src.Material;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.World;
+import net.minecraft.src.tileentity.ITileEntityProvider;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.world.World;
 
 public abstract class BlockContainer extends Block implements ITileEntityProvider {
     protected BlockContainer(int par1, Material par2Material) {

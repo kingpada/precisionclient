@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.RenderEngine;
-import net.minecraft.src.World;
+import net.minecraft.src.render.RenderEngine;
+import net.minecraft.src.world.World;
 import net.minecraft.src.blocks.Block;
 
 public class EntityDiggingFX extends EntityFX {

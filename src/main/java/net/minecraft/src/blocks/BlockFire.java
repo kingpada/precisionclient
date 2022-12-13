@@ -1,7 +1,12 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.world.World;
+import net.minecraft.src.world.WorldProviderEnd;
 
 public class BlockFire extends Block {
     /**

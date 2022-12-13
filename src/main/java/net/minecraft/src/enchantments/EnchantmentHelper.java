@@ -1,10 +1,12 @@
 package net.minecraft.src.enchantments;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
 import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.player.actions.DamageSource;
 
 import java.util.*;
 

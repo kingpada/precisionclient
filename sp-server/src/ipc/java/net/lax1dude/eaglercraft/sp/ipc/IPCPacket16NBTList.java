@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft.sp.ipc;
 
-import net.minecraft.src.CompressedStreamTools;
+import net.minecraft.src.utils.CompressedStreamTools;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 import java.io.*;

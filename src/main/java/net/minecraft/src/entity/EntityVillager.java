@@ -1,12 +1,20 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.crafting.recipes.MerchantRecipe;
+import net.minecraft.src.crafting.recipes.MerchantRecipeList;
 import net.minecraft.src.enchantments.Enchantment;
 import net.minecraft.src.enchantments.EnchantmentData;
 import net.minecraft.src.enchantments.EnchantmentHelper;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.potion.PotionEffect;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.utils.Tuple;
 
 import java.util.Collections;
 import java.util.HashMap;

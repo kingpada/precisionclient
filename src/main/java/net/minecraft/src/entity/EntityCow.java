@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 
 public class EntityCow extends EntityAnimal {
     public EntityCow() {

@@ -1,8 +1,8 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.Icon;
-import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.items.Item;
 
 public class BlockPotato extends BlockCrops {
     private Icon[] iconArray;

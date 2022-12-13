@@ -1,6 +1,6 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.Icon;
+import net.minecraft.src.gui.Icon;
 
 public class BlockButtonWood extends BlockButton {
     protected BlockButtonWood(int par1) {

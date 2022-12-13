@@ -1,7 +1,12 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
+import net.minecraft.src.network.NetClientHandler;
+import net.minecraft.src.packet.packets.*;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.stats.StatBase;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class EntityClientPlayerMP extends EntityPlayerSP {
     public NetClientHandler sendQueue;

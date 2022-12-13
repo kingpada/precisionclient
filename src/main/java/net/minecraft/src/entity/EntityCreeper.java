@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.Item;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.items.Item;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 public class EntityCreeper extends EntityMob {

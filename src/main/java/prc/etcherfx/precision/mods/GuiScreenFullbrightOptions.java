@@ -1,6 +1,11 @@
 package prc.etcherfx.precision.mods;
 
-import net.minecraft.src.*;
+import net.minecraft.src.data.GameSettings;
+import net.minecraft.src.enums.EnumOptions;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiSmallButton;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.utils.StringTranslate;
 
 import java.util.Objects;
 

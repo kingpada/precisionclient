@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.Item;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntityBlaze extends EntityMob {
     /**

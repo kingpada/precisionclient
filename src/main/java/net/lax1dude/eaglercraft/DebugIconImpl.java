@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.Icon;
+import net.minecraft.src.gui.Icon;
 
 public class DebugIconImpl implements Icon {
 

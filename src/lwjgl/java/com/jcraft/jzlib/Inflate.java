@@ -34,7 +34,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.jcraft.jzlib;
 
-final class Inflate {
+public final class Inflate {
 
     static final private int MAX_WBITS = 15; // 32K LZ77 window
 

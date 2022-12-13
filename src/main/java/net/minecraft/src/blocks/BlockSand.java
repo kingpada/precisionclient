@@ -1,9 +1,9 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.CreativeTabs;
+import net.minecraft.src.creative.CreativeTabs;
 import net.minecraft.src.entity.EntityFallingSand;
-import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockSand extends Block {
     /**

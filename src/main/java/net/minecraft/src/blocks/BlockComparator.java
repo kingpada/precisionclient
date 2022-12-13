@@ -1,8 +1,15 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.enums.Direction;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.tileentity.ITileEntityProvider;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityComparator;
+import net.minecraft.src.world.World;
 
 
 public class BlockComparator extends BlockRedstoneLogic implements ITileEntityProvider {

@@ -3,8 +3,8 @@ package prc.etcherfx.precision;
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.TextureLocation;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.FontRenderer;
-import net.minecraft.src.GuiButton;
+import net.minecraft.src.render.FontRenderer;
+import net.minecraft.src.gui.components.GuiButton;
 
 public class GuiButtonPrc extends GuiButton {
     public GuiButtonPrc(int par1, int par2, int par3, String par4Str) {

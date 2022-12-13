@@ -1,10 +1,9 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.Empty3;
-import net.minecraft.src.IEnchantmentModifier;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.Empty3;
 
-final class EnchantmentModifierDamage implements IEnchantmentModifier {
+public final class EnchantmentModifierDamage implements IEnchantmentModifier {
     /**
      * Used to calculate the damage modifier (extra armor) on enchantments that the
      * player have on equipped armors.

@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class EntityWitherAttackFilter implements IEntitySelector {
+public final class EntityWitherAttackFilter implements IEntitySelector {
     /**
      * Return whether the specified entity is applicable to this filter.
      */

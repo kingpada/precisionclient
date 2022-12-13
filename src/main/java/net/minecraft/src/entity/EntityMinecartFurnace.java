@@ -1,8 +1,12 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class EntityMinecartFurnace extends EntityMinecart {
     private int fuel = 0;

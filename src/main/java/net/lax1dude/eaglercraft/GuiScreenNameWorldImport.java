@@ -1,6 +1,10 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.*;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiTextField;
+import net.minecraft.src.gui.screens.GuiCreateWorld;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.utils.StringTranslate;
 
 public class GuiScreenNameWorldImport extends GuiScreen {
     private final GuiScreen parentGuiScreen;

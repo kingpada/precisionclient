@@ -1,7 +1,10 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.enums.EnumEnchantmentType;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.stats.StatCollector;
 
 import java.util.ArrayList;
 

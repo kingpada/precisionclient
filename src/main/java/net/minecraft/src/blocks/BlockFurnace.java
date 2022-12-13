@@ -1,12 +1,20 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.containers.Container;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityFurnace;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class BlockFurnace extends BlockContainer {
     /**

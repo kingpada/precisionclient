@@ -1,6 +1,6 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.EnumEnchantmentType;
+import net.minecraft.src.enums.EnumEnchantmentType;
 
 public class EnchantmentArrowFire extends Enchantment {
     public EnchantmentArrowFire(int par1, int par2) {

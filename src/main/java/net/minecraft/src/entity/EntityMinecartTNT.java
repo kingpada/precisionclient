@@ -1,10 +1,10 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.Explosion;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.World;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.particle.Explosion;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.world.World;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.blocks.BlockRailBase;
 import net.minecraft.src.nbt.NBTTagCompound;

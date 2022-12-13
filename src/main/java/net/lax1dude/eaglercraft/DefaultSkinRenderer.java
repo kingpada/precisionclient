@@ -2,10 +2,14 @@ package net.lax1dude.eaglercraft;
 
 import net.lax1dude.eaglercraft.EaglerProfile.EaglerProfileCape;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityClientPlayerMP;
 import net.minecraft.src.entity.EntityOtherPlayerMP;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.model.objects.*;
+import net.minecraft.src.packet.packets.Packet250CustomPayload;
+import net.minecraft.src.render.OpenGlHelper;
+import net.minecraft.src.render.objects.RenderEnderman;
+import net.minecraft.src.render.RenderHelper;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -71,7 +75,12 @@ public class DefaultSkinRenderer {
             new TextureLocation("/skins/c17.snowman.png"),
             new TextureLocation("/skins/c18.spade.png"),
             new TextureLocation("/skins/c19.birthday.png"),
-            new TextureLocation("/skins/c20.db.png")
+            new TextureLocation("/skins/c20.db.png"),
+            new TextureLocation("/skins/c21.netherite.png"),
+            new TextureLocation("/skins/c22.pastel.png"),
+            new TextureLocation("/skins/c23.akatsuki.png"),
+            new TextureLocation("/skins/c24.norse.png"),
+            new TextureLocation("/skins/c25.nether.png"),
     };
 
     public static final HighPolySkin[] defaultHighPoly = new HighPolySkin[]{

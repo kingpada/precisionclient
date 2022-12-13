@@ -1,9 +1,9 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.Gui;
-import net.minecraft.src.GuiChat;
-import net.minecraft.src.GuiIngameMenu;
+import net.minecraft.src.gui.Gui;
+import net.minecraft.src.gui.screens.GuiChat;
+import net.minecraft.src.gui.screens.GuiIngameMenu;
 
 import java.util.ArrayList;
 import java.util.List;

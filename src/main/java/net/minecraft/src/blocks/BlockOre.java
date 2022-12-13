@@ -1,7 +1,11 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class BlockOre extends Block {
     public BlockOre(int par1) {

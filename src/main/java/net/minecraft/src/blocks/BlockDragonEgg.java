@@ -1,9 +1,10 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityFallingSand;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockDragonEgg extends Block {
     public BlockDragonEgg(int par1) {

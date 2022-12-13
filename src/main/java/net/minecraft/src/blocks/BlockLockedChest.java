@@ -1,9 +1,9 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.IconRegister;
-import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockLockedChest extends Block {
     protected BlockLockedChest(int par1) {

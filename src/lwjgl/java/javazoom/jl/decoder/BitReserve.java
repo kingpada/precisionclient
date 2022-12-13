@@ -40,7 +40,7 @@ package javazoom.jl.decoder;
 
 // REVIEW: there is no range checking, so buffer underflow or overflow
 // can silently occur.
-final class BitReserve {
+public final class BitReserve {
     /**
      * Size of the internal buffer to store the reserved bits.
      * Must be a power of 2. And x8, as each bit is stored as a single

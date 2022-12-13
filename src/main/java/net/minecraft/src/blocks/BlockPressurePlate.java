@@ -1,9 +1,11 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.*;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.enums.EnumMobType;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 import java.util.Iterator;
 import java.util.List;

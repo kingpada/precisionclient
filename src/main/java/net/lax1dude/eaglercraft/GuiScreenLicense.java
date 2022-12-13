@@ -1,10 +1,7 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.GuiButton;
-import net.minecraft.src.GuiScreen;
-
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
+import net.minecraft.src.gui.components.GuiButton;
+import net.minecraft.src.gui.components.GuiScreen;
 
 public class GuiScreenLicense extends GuiScreen {
 
@@ -53,7 +50,7 @@ public class GuiScreenLicense extends GuiScreen {
         EaglerAdapter.glPopMatrix();
 
         byte[] ColoredName = new byte[] {-62, -89, 99, 109, 99, 97, -62, -89, 102, 99, 114, 97, 102, 116, -62, -89, 114};
-        byte[] byteArr = new byte[] {-62, -89, 100, 102, 114, 101, 101, 32, 115, 111, 102, 116, 119, 97, 114, 101, -62, -89, 114}; //§dfree software§r
+        byte[] byteArr = new byte[] {-62, -89, 100, 102, 114, 101, 101, 32, 115, 111, 102, 116, 119, 97, 114, 101, -62, -89, 114}; //&dfree software§r
 
         drawCenteredString(fontRenderer, new String(ColoredName) + " is a game dedicated to the students at", width / 2, beginOffset + 22, 0xFF7777);
         drawCenteredString(fontRenderer, "MCA, But to keep mcacraft fun and alive, you must follow these ", width / 2, beginOffset + 33, 0xFF7777);

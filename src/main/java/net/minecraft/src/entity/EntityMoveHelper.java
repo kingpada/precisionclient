@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntityMoveHelper {
     /**

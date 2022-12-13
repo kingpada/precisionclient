@@ -2,7 +2,7 @@ package net.minecraft.src;
 
 import net.lax1dude.eaglercraft.sp.EaglercraftRandom;
 
-final class DispenserBehaviorFireball extends BehaviorDefaultDispenseItem {
+public final class DispenserBehaviorFireball extends BehaviorDefaultDispenseItem {
     /**
      * Dispense the specified stack, play the dispense sound and spawn particles.
      */

@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 public class EntityLightningBolt extends EntityWeatherEffect {

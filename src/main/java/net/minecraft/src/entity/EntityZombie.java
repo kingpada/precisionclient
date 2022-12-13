@@ -1,8 +1,13 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.enums.EnumCreatureAttribute;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.potion.PotionEffect;
+import net.minecraft.src.utils.MathHelper;
 
 import java.util.Calendar;
 

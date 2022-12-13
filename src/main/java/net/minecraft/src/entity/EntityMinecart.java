@@ -1,9 +1,16 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.blocks.BlockRailBase;
+import net.minecraft.src.events.IUpdatePlayerListBox;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 public abstract class EntityMinecart extends Entity {
     private final boolean isInReverse;

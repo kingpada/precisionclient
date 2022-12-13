@@ -1,9 +1,12 @@
 package net.minecraft.src.enchantments;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.enums.EnumEnchantmentType;
+import net.minecraft.src.items.objects.ItemArmor;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.player.actions.DamageSource;
 
 public class EnchantmentThorns extends Enchantment {
     public EnchantmentThorns(int par1, int par2) {

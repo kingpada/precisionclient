@@ -1,7 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.IEntitySelector;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.items.objects.ItemStack;
 
 public class EntitySelectorArmoredMob implements IEntitySelector {
     private final ItemStack field_96567_c;

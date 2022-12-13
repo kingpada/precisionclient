@@ -1,9 +1,12 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockRedstoneOre extends Block {
     private final boolean glowing;

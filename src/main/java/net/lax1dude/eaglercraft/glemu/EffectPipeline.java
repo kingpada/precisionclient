@@ -4,8 +4,8 @@ import net.lax1dude.eaglercraft.EaglercraftRandom;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.entity.EntityLiving;
-import net.minecraft.src.GLAllocation;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.texture.GLAllocation;
+import net.minecraft.src.utils.MathHelper;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

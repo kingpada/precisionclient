@@ -1,6 +1,9 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntityWitch extends EntityMob implements IRangedAttackMob {
     /**

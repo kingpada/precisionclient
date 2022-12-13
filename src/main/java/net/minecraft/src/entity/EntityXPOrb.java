@@ -1,10 +1,10 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.Material;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.nbt.NBTTagCompound;
 

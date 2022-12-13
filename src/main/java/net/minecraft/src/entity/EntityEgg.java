@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.MovingObjectPosition;
-import net.minecraft.src.World;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.world.World;
 
 public class EntityEgg extends EntityThrowable {
     public EntityEgg() {

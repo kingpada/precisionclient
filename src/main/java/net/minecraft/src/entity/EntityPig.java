@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.AchievementList;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.stats.data.achievements.AchievementList;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 public class EntityPig extends EntityAnimal {

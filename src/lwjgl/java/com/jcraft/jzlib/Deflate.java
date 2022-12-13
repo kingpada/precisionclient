@@ -35,7 +35,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 package com.jcraft.jzlib;
 
 public
-final class Deflate implements Cloneable {
+public final class Deflate implements Cloneable {
 
     static final private int MAX_MEM_LEVEL = 9;
 

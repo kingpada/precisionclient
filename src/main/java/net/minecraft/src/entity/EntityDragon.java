@@ -1,9 +1,12 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.blocks.BlockEndPortal;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,7 +1,6 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.IBlockAccess;
-import net.minecraft.src.Material;
+import net.minecraft.src.materials.Material;
 
 public class BlockLeavesBase extends Block {
     /**

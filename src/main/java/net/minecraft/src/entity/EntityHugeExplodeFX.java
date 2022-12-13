@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.World;
+import net.minecraft.src.world.World;
 
 public class EntityHugeExplodeFX extends EntityFX {
     private int timeSinceStart = 0;

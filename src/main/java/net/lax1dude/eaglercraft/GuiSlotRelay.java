@@ -3,7 +3,7 @@ package net.lax1dude.eaglercraft;
 import net.lax1dude.eaglercraft.RelayQuery.VersionMismatch;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.GuiSlot;
+import net.minecraft.src.gui.components.GuiSlot;
 
 class GuiSlotRelay extends GuiSlot {
 

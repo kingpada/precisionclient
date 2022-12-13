@@ -1,7 +1,13 @@
 package net.minecraft.src.containers;
 
-import net.minecraft.src.*;
+import net.minecraft.src.crafting.ICrafting;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.inventory.InventoryPlayer;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.slot.Slot;
+import net.minecraft.src.slot.objects.SlotBrewingStandIngredient;
+import net.minecraft.src.slot.objects.SlotBrewingStandPotion;
+import net.minecraft.src.tileentity.TileEntityBrewingStand;
 
 public class ContainerBrewingStand extends Container {
     private final TileEntityBrewingStand tileBrewingStand;

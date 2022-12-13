@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.EnumCreatureAttribute;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.enums.EnumCreatureAttribute;
 import net.minecraft.src.blocks.Block;
 
 public class EntitySilverfish extends EntityMob {

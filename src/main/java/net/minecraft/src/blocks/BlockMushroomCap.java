@@ -1,10 +1,10 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.Icon;
-import net.minecraft.src.IconRegister;
-import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockMushroomCap extends Block {
     private static final String[] field_94429_a = new String[]{"mushroom_skin_brown", "mushroom_skin_red"};

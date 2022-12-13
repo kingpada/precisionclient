@@ -1,10 +1,10 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Item;
-import net.minecraft.src.Material;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.MathHelper;
 
 public class BlockGlowStone extends Block {
     public BlockGlowStone(int par1, Material par2Material) {

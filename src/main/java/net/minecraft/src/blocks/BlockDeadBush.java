@@ -1,7 +1,7 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.Material;
+import net.minecraft.src.materials.Material;
 
 public class BlockDeadBush extends BlockFlower {
     protected BlockDeadBush(int par1) {

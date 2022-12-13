@@ -1,10 +1,20 @@
 package net.minecraft.src.containers;
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.crafting.ICrafting;
 import net.minecraft.src.enchantments.Enchantment;
 import net.minecraft.src.enchantments.EnchantmentHelper;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.inventory.InventoryCraftResult;
+import net.minecraft.src.inventory.InventoryPlayer;
+import net.minecraft.src.inventory.InventoryRepair;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemEnchantedBook;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.slot.Slot;
+import net.minecraft.src.slot.objects.SlotRepair;
+import net.minecraft.src.world.World;
 
 import java.util.Iterator;
 import java.util.Map;

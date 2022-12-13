@@ -1,4 +1,4 @@
 package net.minecraft.src;
 
-final class StatTypeSimple implements IStatType {
+public final class StatTypeSimple implements IStatType {
 }

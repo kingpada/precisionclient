@@ -2,10 +2,10 @@ package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.EaglerAdapter;
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.OpenGlHelper;
-import net.minecraft.src.RenderManager;
-import net.minecraft.src.World;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.render.OpenGlHelper;
+import net.minecraft.src.render.RenderManager;
+import net.minecraft.src.world.World;
 
 public class EntityPickupFX extends EntityFX {
     private final Entity entityToPickUp;

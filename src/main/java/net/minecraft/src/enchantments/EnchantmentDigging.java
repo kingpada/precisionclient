@@ -1,8 +1,8 @@
 package net.minecraft.src.enchantments;
 
-import net.minecraft.src.EnumEnchantmentType;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.enums.EnumEnchantmentType;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 
 public class EnchantmentDigging extends Enchantment {
     protected EnchantmentDigging(int par1, int par2) {

@@ -1,6 +1,10 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
 
 import java.util.List;
 

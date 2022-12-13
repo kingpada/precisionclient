@@ -1,6 +1,14 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.*;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityDispenser;
+import net.minecraft.src.tileentity.TileEntityDropper;
+import net.minecraft.src.tileentity.TileEntityHopper;
+import net.minecraft.src.world.Facing;
+import net.minecraft.src.world.World;
 
 public class BlockDropper extends BlockDispenser {
 

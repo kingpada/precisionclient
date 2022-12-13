@@ -1,9 +1,13 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
 import net.minecraft.src.enchantments.EnchantmentHelper;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.enums.EnumSkyBlock;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.world.World;
 
 public class BlockIce extends BlockBreakable {
     public BlockIce(int par1) {

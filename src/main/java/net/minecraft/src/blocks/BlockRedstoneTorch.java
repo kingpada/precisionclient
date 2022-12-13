@@ -1,10 +1,9 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.IBlockAccess;
-import net.minecraft.src.IconRegister;
-import net.minecraft.src.RedstoneUpdateInfo;
-import net.minecraft.src.World;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.events.RedstoneUpdateInfo;
+import net.minecraft.src.world.World;
 
 import java.util.ArrayList;
 import java.util.HashMap;

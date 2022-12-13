@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class DispenserBehaviorSnowball extends BehaviorProjectileDispense {
+public final class DispenserBehaviorSnowball extends BehaviorProjectileDispense {
     /**
      * Return the projectile entity spawned by this dispense behavior.
      */

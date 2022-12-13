@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.MovingObjectPosition;
-import net.minecraft.src.World;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.world.World;
 
 public class EntityExpBottle extends EntityThrowable {
     public EntityExpBottle() {

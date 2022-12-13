@@ -1,10 +1,10 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.Material;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntitySquid extends EntityWaterMob {
     public float squidPitch = 0.0F;

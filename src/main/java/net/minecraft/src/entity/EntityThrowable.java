@@ -1,8 +1,12 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
+import net.minecraft.src.enums.EnumMovingObjectType;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 public abstract class EntityThrowable extends Entity implements IProjectile {
     private int xTile = -1;

@@ -1,6 +1,10 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
+import net.minecraft.src.enums.EnumCreatureAttribute;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.potion.PotionEffect;
+import net.minecraft.src.utils.MathHelper;
 
 public class EntitySpider extends EntityMob {
     public EntitySpider() {

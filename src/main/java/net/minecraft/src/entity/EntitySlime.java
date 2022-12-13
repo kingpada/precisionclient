@@ -1,8 +1,13 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.*;
+import net.minecraft.src.biome.BiomeGenBase;
+import net.minecraft.src.chunk.Chunk;
+import net.minecraft.src.items.Item;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.WorldType;
 
 public class EntitySlime extends EntityLiving implements IMob {
     /**

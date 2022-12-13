@@ -1,8 +1,8 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.IconRegister;
-import net.minecraft.src.World;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.world.World;
 
 public class BlockMushroom extends BlockFlower {
     private final String field_94374_a;

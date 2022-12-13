@@ -1,9 +1,9 @@
 package net.minecraft.src.blocks;
 
 import net.minecraft.src.entity.EntityItem;
-import net.minecraft.src.Material;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 import java.util.Iterator;
 

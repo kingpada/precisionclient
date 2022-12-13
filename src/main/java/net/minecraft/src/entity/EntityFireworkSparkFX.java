@@ -1,9 +1,9 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.adapter.Tessellator;
-import net.minecraft.src.AxisAlignedBB;
-import net.minecraft.src.EffectRenderer;
-import net.minecraft.src.World;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.particle.EffectRenderer;
+import net.minecraft.src.world.World;
 
 public class EntityFireworkSparkFX extends EntityFX {
     private final int field_92049_a = 160;

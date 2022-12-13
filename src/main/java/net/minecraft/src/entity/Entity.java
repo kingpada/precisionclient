@@ -1,14 +1,25 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.blocks.BlockFluid;
+import net.minecraft.src.data.DataWatcher;
 import net.minecraft.src.enchantments.EnchantmentProtection;
+import net.minecraft.src.enums.EnumEntitySize;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.materials.Material;
 import net.minecraft.src.nbt.NBTTagCompound;
 import net.minecraft.src.nbt.NBTTagDouble;
 import net.minecraft.src.nbt.NBTTagFloat;
 import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.particle.Explosion;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.sounds.StepSound;
+import net.minecraft.src.stats.StatCollector;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 import java.util.List;
 

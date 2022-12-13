@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Potion;
-import net.minecraft.src.PotionEffect;
+import net.minecraft.src.potion.Potion;
+import net.minecraft.src.potion.PotionEffect;
 
 public class EntityCaveSpider extends EntitySpider {
     public EntityCaveSpider() {

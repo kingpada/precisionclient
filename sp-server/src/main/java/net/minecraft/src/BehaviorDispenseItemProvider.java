@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-final class BehaviorDispenseItemProvider implements IBehaviorDispenseItem {
+public final class BehaviorDispenseItemProvider implements IBehaviorDispenseItem {
     /**
      * Dispenses the specified ItemStack from a dispenser.
      */

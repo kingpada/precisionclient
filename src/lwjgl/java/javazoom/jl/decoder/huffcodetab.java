@@ -42,7 +42,7 @@ package javazoom.jl.decoder;
 /**
  * Class that implements a Huffman decoder.
  */
-final class huffcodetab {
+public final class huffcodetab {
     private static final int MXOFF = 250;
     private static final int HTN = 34;
 

@@ -1,10 +1,14 @@
 package net.minecraft.src.entity;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.blocks.Block;
 import net.minecraft.src.containers.ContainerSheep;
+import net.minecraft.src.crafting.CraftingManager;
+import net.minecraft.src.inventory.InventoryCrafting;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.utils.MathHelper;
 
 
 public class EntitySheep extends EntityAnimal {

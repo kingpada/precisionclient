@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft.glemu;
 
-import net.minecraft.src.GLAllocation;
+import net.minecraft.src.texture.GLAllocation;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;

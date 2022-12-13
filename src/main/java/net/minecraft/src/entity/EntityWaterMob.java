@@ -1,8 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.IAnimals;
-import net.minecraft.src.Material;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.materials.Material;
 
 public abstract class EntityWaterMob extends EntityCreature implements IAnimals {
 

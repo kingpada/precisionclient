@@ -1,10 +1,10 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.EnumChatFormatting;
-import net.minecraft.src.Gui;
-import net.minecraft.src.GuiScreen;
-import net.minecraft.src.StringTranslate;
+import net.minecraft.src.enums.EnumChatFormatting;
+import net.minecraft.src.gui.Gui;
+import net.minecraft.src.gui.components.GuiScreen;
+import net.minecraft.src.utils.StringTranslate;
 
 public class GuiNetworkSettingsButton extends Gui {
 

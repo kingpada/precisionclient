@@ -1,7 +1,11 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
+import net.minecraft.src.materials.Material;
 import net.minecraft.src.nbt.NBTTagCompound;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class EntityBoat extends Entity {
     private boolean field_70279_a;

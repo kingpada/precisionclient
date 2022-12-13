@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemSeeds;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.items.objects.ItemSeeds;
+import net.minecraft.src.items.objects.ItemStack;
 
 public class EntityChicken extends EntityAnimal {
     public boolean field_70885_d = false;

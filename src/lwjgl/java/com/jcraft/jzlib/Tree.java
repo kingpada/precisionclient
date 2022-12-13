@@ -34,7 +34,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.jcraft.jzlib;
 
-final class Tree {
+public final class Tree {
     static final private int MAX_BITS = 15;
     static final private int BL_CODES = 19;
     static final private int D_CODES = 30;

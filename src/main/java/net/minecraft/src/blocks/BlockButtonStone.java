@@ -1,6 +1,6 @@
 package net.minecraft.src.blocks;
 
-import net.minecraft.src.Icon;
+import net.minecraft.src.gui.Icon;
 
 public class BlockButtonStone extends BlockButton {
     protected BlockButtonStone(int par1) {

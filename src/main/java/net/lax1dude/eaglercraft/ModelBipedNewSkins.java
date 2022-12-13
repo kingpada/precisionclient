@@ -1,8 +1,8 @@
 package net.lax1dude.eaglercraft;
 
 import net.minecraft.src.entity.Entity;
-import net.minecraft.src.ModelBiped;
-import net.minecraft.src.ModelRenderer;
+import net.minecraft.src.model.objects.ModelBiped;
+import net.minecraft.src.model.objects.ModelRenderer;
 
 public class ModelBipedNewSkins extends ModelBiped {
     /**

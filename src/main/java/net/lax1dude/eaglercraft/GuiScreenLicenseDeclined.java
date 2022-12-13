@@ -1,6 +1,6 @@
 package net.lax1dude.eaglercraft;
 
-import net.minecraft.src.GuiScreen;
+import net.minecraft.src.gui.components.GuiScreen;
 
 public class GuiScreenLicenseDeclined extends GuiScreen {
 

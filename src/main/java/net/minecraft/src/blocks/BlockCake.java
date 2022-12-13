@@ -1,8 +1,13 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.items.Item;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.world.World;
 
 public class BlockCake extends Block {
     private Icon cakeTopIcon;

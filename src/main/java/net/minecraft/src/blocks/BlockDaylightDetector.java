@@ -1,7 +1,15 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.enums.EnumSkyBlock;
+import net.minecraft.src.gui.Icon;
+import net.minecraft.src.gui.IconRegister;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityDaylightDetector;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 
 public class BlockDaylightDetector extends BlockContainer {
     private final Icon[] iconArray = new Icon[2];

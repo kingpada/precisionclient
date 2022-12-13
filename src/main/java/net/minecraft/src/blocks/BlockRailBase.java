@@ -1,7 +1,12 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.*;
+import net.minecraft.src.creative.CreativeTabs;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.utils.AxisAlignedBB;
+import net.minecraft.src.utils.Vec3;
+import net.minecraft.src.world.World;
 
 public abstract class BlockRailBase extends Block {
     /**

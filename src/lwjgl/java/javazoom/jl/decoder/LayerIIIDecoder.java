@@ -39,7 +39,7 @@ package javazoom.jl.decoder;
  *
  * @since 0.0
  */
-final class LayerIIIDecoder implements FrameDecoder {
+public final class LayerIIIDecoder implements FrameDecoder {
     static final double d43 = (4.0 / 3.0);
 
     public int[] scalefac_buffer;

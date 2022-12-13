@@ -1,9 +1,12 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.*;
 import net.minecraft.src.containers.Container;
+import net.minecraft.src.inventory.IInventory;
+import net.minecraft.src.items.objects.ItemStack;
 import net.minecraft.src.nbt.NBTTagCompound;
 import net.minecraft.src.nbt.NBTTagList;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.world.World;
 
 public abstract class EntityMinecartContainer extends EntityMinecart implements IInventory {
     private ItemStack[] minecartContainerItems = new ItemStack[36];

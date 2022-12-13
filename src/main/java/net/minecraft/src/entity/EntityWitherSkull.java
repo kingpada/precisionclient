@@ -1,10 +1,10 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.DamageSource;
-import net.minecraft.src.Explosion;
-import net.minecraft.src.MovingObjectPosition;
-import net.minecraft.src.World;
+import net.minecraft.src.player.actions.DamageSource;
+import net.minecraft.src.particle.Explosion;
+import net.minecraft.src.position.MovingObjectPosition;
+import net.minecraft.src.world.World;
 import net.minecraft.src.blocks.Block;
 
 public class EntityWitherSkull extends EntityFireball {

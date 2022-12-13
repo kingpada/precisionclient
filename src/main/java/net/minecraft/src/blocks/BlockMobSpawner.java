@@ -1,10 +1,10 @@
 package net.minecraft.src.blocks;
 
 import net.lax1dude.eaglercraft.EaglercraftRandom;
-import net.minecraft.src.Material;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityMobSpawner;
-import net.minecraft.src.World;
+import net.minecraft.src.materials.Material;
+import net.minecraft.src.tileentity.TileEntity;
+import net.minecraft.src.tileentity.TileEntityMobSpawner;
+import net.minecraft.src.world.World;
 
 public class BlockMobSpawner extends BlockContainer {
     protected BlockMobSpawner(int par1) {

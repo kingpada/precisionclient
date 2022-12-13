@@ -1,9 +1,9 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.items.objects.ItemStack;
+import net.minecraft.src.utils.MathHelper;
+import net.minecraft.src.world.World;
 import net.minecraft.src.nbt.NBTTagCompound;
 
 public class EntityFireworkRocket extends Entity {

@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
 
-import net.minecraft.src.World;
+import net.minecraft.src.world.World;
 
 public class EntityAuraFX extends EntityFX {
     public EntityAuraFX(World par1World, double par2, double par4, double par6, double par8, double par10, double par12) {

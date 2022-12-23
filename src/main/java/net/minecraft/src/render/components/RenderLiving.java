@@ -379,11 +379,11 @@ public abstract class RenderLiving extends Render {
             if (var10 < (double) (var12 * var12)) {
                 String entityName = entity.getTranslatedEntityName();
 
-                if (entityName.equals("KingPada")) {
-                    String Title = EaglerAdapter.coloredText("&4[&cOwner&4]&c ");
-
-                    entityName = Title + entityName;
-                }
+//                if (entityName.equals("KingPada")) {
+//                    String Title = EaglerAdapter.coloredText("&4[&cOwner&4]&c ");
+//
+//                    entityName = Title + entityName;
+//                }
 
                 // ADD NAME THING HERE //
 

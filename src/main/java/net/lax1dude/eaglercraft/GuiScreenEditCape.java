@@ -18,7 +18,7 @@ public class GuiScreenEditCape extends GuiScreen {
     private int mousey = 0;
 
     public static final String[] defaultVanillaCapeNames = new String[]{
-            "No Cape",
+            "None",
             "Minecon 2011",
             "Minecon 2012",
             "Minecon 2013",
